@@ -7,14 +7,31 @@
 		.texto{
 			font-size: 1em;
 		}
-		
+		.negrito{
+			font-weight: bold;
+			font-size: 30px;
+		}
+		.estilo{
+			font-style: italic;
+			/*font-style: oblique;*/
+
+		}
+		.texto-padrao{
+			font: bold 40px Book;
+
+		}
+		.formatacao{
+			text-decoration: line-through;
+		}
 	</style>
 </head>
 <body>
 	
 <p class="texto">
-	Na parte 1, explico como cada um de nós está </p>
-	<p>Conteudo 1 </p>
+	Na parte 1, explico como <span class="formatacao">cada</span> um de nós está </p>
+	<p class="negrito">Conteudo 1 </p>
 	<p>Conteudo 2</p>
+	<p class="estilo">Conteudo 3</p>
+	<p class="texto-padrao">Conteudo 4</p>
 </body>
 </html>
